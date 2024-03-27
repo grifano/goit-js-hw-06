@@ -21,5 +21,5 @@ share with us ❤️
 - Website - [Serhii "Grifano" Orlenko](https://grifano.com)
 - Uxcel - [Design](https://app.uxcel.com/ux/EE4PBID94EEH)
 - Frontend Mentor -
-  [Web Development](https://www.frontendmentor.io/profile/SO-Grifano)
+  [Web Development](https://www.frontendmentor.io/profile/grifano)
 - Twitter - [@OrlenkoSerhii](https://twitter.com/OrlenkoSerhii)
