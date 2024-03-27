@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
+      type="image/x-icon"
+    />
+    <title>GOIT: Java Script</title>
+    <style>
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        padding-top: 1.25rem;
+        display: flex;
+        justify-content: center;
+      }
+      main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      h1 {
+        font-size: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+      }
+      h2 {
+        font-size: 2rem;
+      }
+      h2,
+      h3,
+      h4 {
+        text-align: center;
+      }
+      footer {
+        background-color: #ee7331;
+        padding: 1.25rem;
+      }
+      footer ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+      }
+      footer ul a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4px;
+        border-radius: 4px;
+        background-color: #fff;
+        position: relative;
+      }
+      footer ul a::after {
+        content: '';
+        display: block;
+        position: absolute;
+        border-radius: 100vh 100vh 0 0;
+        width: 50%;
+        height: 50%;
+        bottom: 0;
+        right: 0;
+        background-color: #ee7331;
+        transform: scale(0);
+        transform-origin: 100% 100%;
+        transition: transform 0.3s ease-in-out;
+      }
+      footer ul a img {
+        position: relative;
+        z-index: 2;
+      }
+      footer ul a:hover::after {
+        transform: scale(1);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a
+        href="https://goit.global/ua/"
+        rel="noopener noreferrer"
+        aria-label="goit website"
+      >
+        <img
+          src="https://goit.global/mx/assets/images/logo-goit.svg"
+          width="160"
+          alt="goit logo"
+        />
+      </a>
+    </header>
+    <main>
+      <section>
+        <h1>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
+            alt="java script logo"
+            width="50"
+          />Java Script
+        </h1>
+        <h2>Homework 4</h2>
+        <h3>Author</h3>
+        <h4>Serhii Orlenko</h4>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <a
+            href="https://grifano.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="serhii orlenko website"
+            ><img
+              src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Globe_icon.svg"
+              width="48"
+              alt="globe"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://app.uxcel.com/ux/EE4PBID94EEH"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="serhii orlenko uxcel profile"
+            ><img
+              src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_ba51b2628d04b9c628af50b178cb209e/uxcel.png"
+              width="48"
+              alt="uxcel logo"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/OrlenkoSerhii"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="serhii orlenko twitter x"
+            ><img
+              src="https://upload.wikimedia.org/wikipedia/commons/c/c6/X_Twitter_icon.svg"
+              width="48"
+              alt="X_Twitter_icon"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+
+  <script defer src="./js/task-1.js" type="module"></script>
+  <script defer src="./js/task-2.js" type="module"></script>
+  <script defer src="./js/task-3.js" type="module"></script>
+</html>
