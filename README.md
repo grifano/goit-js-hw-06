@@ -2,9 +2,9 @@
 
 # Java Script
 
-## Module 4: Objects
+## Module 6: OOP, Classes
 
-### Homework 4
+### Homework 6
 
 ---
 
